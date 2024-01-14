@@ -1,0 +1,138 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    margin: 0px;
+    padding: 0%;
+    font-family:'Open sans',Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    width: 1440px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 700;
+    float: left;
+    font-family:  Courier;
+    color: #739072;
+}
+
+.menu{
+    float: left;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80%px;
+    position: sticky;
+    top: 0;
+    background: black;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 18px 0px 18px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.img {
+width: 1000px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: black;
+    position: left;
+}
+
+h2{
+    font-family: 'arial';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #739072;
+    width: 100%;
+    line-height: 50px;
+    float: left;
+}
+
+a.tbl-hitam {
+    background: #D2E3C8;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbhl-hitam :hover{
+    background: #D2E3C8;
+    text-decoration: none;
+}
+
+a.tbl-biru{
+    background: #D2E3C8;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru :hover{
+    background: #739072;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+
+}
